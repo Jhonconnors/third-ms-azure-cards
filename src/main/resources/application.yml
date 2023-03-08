@@ -1,9 +1,9 @@
 spring:
   datasource:
-    username: connors
-    url: jdbc:sqlserver://ms-server-sql-spring.database.windows.net;database=db_pay_cards;TrustServerCertificate=True;
-    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    password: Alfaomega2023
+    #username: connors
+    url: jdbc:sqlserver://ms-server-sql-spring.database.windows.net:1433;database=db_pay_cards;user=connors@ms-server-sql-spring;password=Alfaomega2023;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    #driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    #password: Alfaomega2023
   application:
     name: ms-cards-2
 server:
