@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: connors
+    url: jdbc:sqlserver://ms-server-sql-spring.database.windows.net;database=db_pay_cards;TrustServerCertificate=True;
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    password: Alfaomega2023
+  application:
+    name: ms-cards-2
+server:
+  port: '9090'
